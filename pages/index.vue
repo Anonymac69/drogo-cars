@@ -6,12 +6,14 @@
       </div>
       <categories />
       <premium />
-      <footer />
+      <foot />
     </div>
 </template>
 
 <script>
-export default {}
+export default {
+  
+}
 </script>
 
 <style>

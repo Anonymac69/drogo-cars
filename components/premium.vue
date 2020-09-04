@@ -1,5 +1,13 @@
 <template>
-  <div class="premium">
+  <div class="about">
+    <p class="header">Who we Are...</p>
+    <hr>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat, 
+      velit quam voluptatibus cum, minima assumenda culpa vel quis earum, corrupti repellat 
+      aspernatur temporibus optio mollitia dolore alias! Tenetur, voluptas aperiam saepe esse 
+      libero animi ad iste illum aspernatur ab laborum ipsam alias distinctio dolorum placeat 
+      reiciendis laudantium sint nobis!</p>
+
     <p class="header">Top Featured Rides This Week</p>
     <hr>
 
@@ -24,12 +32,12 @@ export default {
 </script>
 
 <style>
-  .premium {
+  .about {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
+    height: 900px;
     margin: 0 auto;
     width: 900px;
   }
@@ -49,6 +57,7 @@ export default {
   .card-wrap {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
   }
 
   .card1, .card2 {
@@ -58,7 +67,7 @@ export default {
     height: 250px;
     justify-content: flex-start;
     margin: 30px 10px;
-    width: 430px;
+    width: 410px;
   }
 
   .card1 {
@@ -68,9 +77,16 @@ export default {
     background-size: cover;
   }
 
+  .card2 {
+    background: url('../assets/autocave/19.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .card-name {
     align-items: center;
-    background: #212121;
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 0 0 3px 3px;
     color: #fff;
     display: flex;
@@ -81,11 +97,11 @@ export default {
     margin: 0;
   }
 
-  .card2 {
-    background: url('../assets/autocave/19.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .text {
+    font-family: 'comfortaa', cursive;
+    font-size: 14px;
+    margin: 20px auto 70px auto;
+    width: 80%;
   }
 
 </style>

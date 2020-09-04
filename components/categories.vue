@@ -49,13 +49,16 @@ export default {
     justify-content: center;
     height: 90%;
     margin: 0 10px;
+    transition: color 0.5s;
     width: 120px;
   }
 
-  .item:focus, 
-  .item:checked,
-  .item:visited {
+  .item:hover {
+    color: #ff4500;
+  }
+
+  .item:focus {
     border: none !important;
-    text-decoration: none !important;
+    outline: none;
   }
 </style>

@@ -40,12 +40,17 @@
   }
 
   .brand-links {
-    color: #070707 !important;
+    color: #070707;
     font-family: 'Staatliches', cursive;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 22px;
     text-decoration: none !important;
+    transition: color 0.5s;
+  }
+
+  .brand-links:hover {
+    color: #ff4500;
   }
 
   .brand-name, 
