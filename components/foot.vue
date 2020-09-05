@@ -17,7 +17,7 @@
         <a href="https://dribbble.com/anonymac69"><span uk-icon="icon:dribbble; ratio:1.5;" class="icon icon-dribbble"></span></a>
       </div>
 
-      <p class="copyright">copyright &copy; 2020</p>
+      <p class="copyright">anonymac69 &copy; 2020</p>
 
     </div>
   </div>

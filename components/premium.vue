@@ -37,7 +37,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 900px;
+    min-height: 720px;
     margin: 0 auto;
     max-width: 900px;
   }
@@ -106,7 +106,24 @@ export default {
 
   @media screen and (max-width: 1200px) {
     .about {
-      margin: 50px auto;
+      margin: 30px auto;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .about {
+      min-height: 1000px;
+    }
+
+    .card1, .card2 {
+      height: 220px;
+      margin: 30px 10px;
+      width: 320px;
+    }
+
+    .text {
+      font-size: 12px;
+      width: 70%;
     }
   }
 

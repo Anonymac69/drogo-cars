@@ -10,6 +10,7 @@
       <nuxt-link class="brand-links" to="#about">About</nuxt-link>
       <nuxt-link class="brand-links" to="#Services">Services</nuxt-link>
       <nuxt-link class="brand-links" to="#contact">Contact</nuxt-link>
+      <nuxt-link class="brand-links" to="#">Login</nuxt-link>
       <span class="nav-btn" uk-icon="icon: menu; ratio: 1.2" uk-toggle="target: #offcanvas-push"></span>
     </div>
 
@@ -20,7 +21,9 @@
 
             <div class="nav-sidebar">
                 <ul class="nav-menu-items">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -74,6 +77,36 @@
   .nav-btn {
     display: none;
     /* padding-top: 3px; */
+  }
+
+  .nav-menu-items {
+    font-family: 'staatliches', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .nav-menu-items li {
+    margin: 20px auto;
+  }
+
+  .nav-menu-items li a:hover {
+    transition: color 0.5s;
+  }
+
+  .nav-menu-items li a:hover {
+    color: #ff4500;
+    text-decoration: none;
+  }
+
+  .nav-sidebar {
+    align-items: center;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
   }
 
   .nav-wrap {

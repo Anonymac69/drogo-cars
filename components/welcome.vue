@@ -43,6 +43,7 @@
    color: #fff;
    font-family: 'sacramento', cursive;
    font-size: 45px;
+   margin-bottom: 30px;
  }
 
  .motto-shade {
@@ -66,7 +67,13 @@
 
  @media screen and (max-width: 800px) {
    .motto-head {
-     font-size: 30px;
+     font-size: 32px;
+   }
+   .motto-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
    }
  }
 </style>
