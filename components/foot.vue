@@ -66,7 +66,8 @@ export default {
     border: none;
     border-radius: 3px;
     display: flex;
-    font-size: 14px;
+    font-family: 'comfortaa';
+    font-size: 13px;
     height: 40px;
     margin: 0 5px;
     padding: 0 10px !important;

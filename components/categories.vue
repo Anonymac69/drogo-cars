@@ -61,4 +61,10 @@ export default {
     border: none !important;
     outline: none;
   }
+
+  @media screen and (max-width: 800px) {
+    .category {
+      display: none;
+    }
+  }
 </style>

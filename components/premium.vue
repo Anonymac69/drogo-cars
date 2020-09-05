@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <p class="header">Who we Are...</p>
     <hr>
     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat, 
@@ -37,9 +37,9 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 900px;
+    min-height: 900px;
     margin: 0 auto;
-    width: 900px;
+    max-width: 900px;
   }
 
   .header {
@@ -98,10 +98,16 @@ export default {
   }
 
   .text {
-    font-family: 'comfortaa', cursive;
+    font-family: 'comfortaa';
     font-size: 14px;
     margin: 20px auto 70px auto;
     width: 80%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .about {
+      margin: 50px auto;
+    }
   }
 
 </style>

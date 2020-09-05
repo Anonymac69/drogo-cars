@@ -63,4 +63,10 @@
    word-spacing: 5px;
    margin: -15px auto 40px auto;
  }
+
+ @media screen and (max-width: 800px) {
+   .motto-head {
+     font-size: 30px;
+   }
+ }
 </style>

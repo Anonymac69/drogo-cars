@@ -25,7 +25,7 @@ export default {
   min-height: 100vh;
   display: flex;
   text-align: center;
-  min-width: 100vw;
+  max-width: 100vw;
 }
 
 .banner {
@@ -36,6 +36,6 @@ export default {
   display: flex;
   flex-direction: column;
   height: 550px;
-  width: 100%;
+  /* width: 100%; */
 }
 </style>
